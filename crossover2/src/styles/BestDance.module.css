@@ -1,0 +1,44 @@
+.Container {
+  display: flex;
+  position: relative;
+  background-color: rgb(240, 110, 50);
+  width: 100vh;
+  background
+}
+
+.bestDanceImage {
+  flex: 1; 
+}
+
+.bestDanceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: flex-start;
+  flex: 1; 
+  background-size: cover;
+  padding: 20px; 
+  color: white;
+}
+
+.bestDanceButton {
+  background-color: rgb(47, 47, 47);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.bestDanceContainer img {
+  display: none; 
+}
+
+.bestDanceContainer h1,
+.bestDanceContainer p,
+.bestDanceContainer button {
+  margin: 10px;
+}
