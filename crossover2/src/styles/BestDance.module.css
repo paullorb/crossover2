@@ -2,12 +2,11 @@
   display: flex;
   position: relative;
   background-color: rgb(240, 110, 50);
-  width: 100vh;
-  background
 }
 
 .bestDanceImage {
   flex: 1; 
+  width: 100%;
 }
 
 .bestDanceContainer {
@@ -19,6 +18,7 @@
   background-size: cover;
   padding: 20px; 
   color: white;
+  margin: 0 4rem;
 }
 
 .bestDanceButton {
@@ -33,6 +33,13 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.bestDanceButton:hover {
+  background-color: transparent;
+  border-radius: 10%;
+  transition: ease-in-out 0.3s;
+}
+
 .bestDanceContainer img {
   display: none; 
 }
@@ -41,4 +48,21 @@
 .bestDanceContainer p,
 .bestDanceContainer button {
   margin: 10px;
+}
+
+.imageContainer {
+  width: 51%;
+}
+
+.heading {
+  font-size: 6rem;
+  margin: 0;
+  composes: oswald-semibold from '../App.css';
+}
+
+.p {
+  width: 70%;
+  opacity: 0.9;
+  line-height: 1.3;
+  font-size: 1.5rem;
 }

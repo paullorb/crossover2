@@ -6,11 +6,11 @@ function BestDance () {
     <div className={style.Container} style={{backgroundImage: `url(${imgBackground})`}}>
       
         <div className={style.bestDanceContainer}>
-          <h1>Best Dance</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+          <h1 className={style.heading}>Best Dance</h1>
+          <p className={style.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
           <button className= {style.bestDanceButton}> Read More</button>
        </div>
-       <div> 
+       <div className={style.imageContainer}> 
        <img className={style.bestDanceImage} src="./src/public/img/bestDance.jpg" alt="best Dance" />
        </div>     
      
