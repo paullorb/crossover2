@@ -1,3 +1,91 @@
 .container {
-  background-color: tomato;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  width: 100%;
+  z-index: 0;
+}
+
+.headingContainer,
+.paragraphContainer {
+  position: absolute;
+  z-index: 1;
+  font-size: 2rem;
+  color: white;
+  margin: 0 auto;
+}
+
+.headingContainer {
+  top: 10%;
+  left: 45%;
+}
+
+.paragraphContainer {
+  top: 20%;
+  left: 17%;
+  max-width: 70%;
+  text-align: center;
+  opacity: 0.75;
+}
+
+.heading {
+  text-align: center;
+}
+
+.cardContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  top: 40%;
+  color: white;
+  margin: 0 10rem;
+  width: 100%;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #ff6600;
+  border-radius: 0.3rem;
+  padding: 2rem;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+  padding: 4rem 5rem;
+}
+
+.cardHeading {
+  composes: oswald-medium from '../App.css';
+  letter-spacing: 0.1px;
+}
+
+.cardButton {
+  background-color: black;
+  margin: 1rem 0;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  composes: oswald-light from '../App.css';
+  letter-spacing: 1px;
+}
+
+.cardButton:hover {
+  background-color: #ff6600;
+  color: white;
+  transition: 0.3s ease-in-out
 }

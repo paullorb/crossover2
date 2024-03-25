@@ -1,3 +1,59 @@
 .container {
-  background-color: aqua;
+  height: 110vh;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.heading {
+  padding: 7rem 0 2rem;
+  composes: oswald-extrabold from "../App.css";
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  font-size: 1.5rem;
+  padding: 0 0 2rem;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  gap: 2rem;
+  margin: 0 10rem;
+}
+
+.cardImg {
+  width: 100%;
+  border-radius: 0.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.cardImg:hover {
+  opacity: 0.7;
+}
+
+.overlay {
+  position: relative;
+  top: -4px;
+  background-color: rgb(37, 37, 37);
+}
+
+.cardHeading {
+  padding: 1.5rem 0 0;
+  font-size: 2.5rem;
+  composes: oswald-regular from "../App.css";
+}
+
+.cardText {
+  font-size: 1.2rem;
+  padding: 1rem 3rem;
 }

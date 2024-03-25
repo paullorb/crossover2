@@ -46,3 +46,11 @@
   font-weight: 700;
   font-style: normal;
 }
+
+.orange {
+  color: #ff6600;
+}
+
+.orangeBg {
+  background-color: #ff6600;
+}

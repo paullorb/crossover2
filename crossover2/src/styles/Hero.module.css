@@ -1,5 +1,4 @@
 .container {
-  /* background-color: green; */
   position: relative;
 }
 
@@ -11,10 +10,8 @@
 .container > div, 
 .container > div button {
   position: absolute;
-  /* transform: translate(-50%, -50%); */
   z-index: 1;
   font-size: 2rem;
-  /* text-align: center; */
   color: white;  
   left: 5%;
 }
@@ -49,7 +46,7 @@
   padding: 0.6rem 3rem;
   font-size: 2rem;
   border-radius: 0.2rem;
-  background-color: rgb(255, 72, 0);
+  background-color: #ff6600;
 }
 
 .button:hover {
