@@ -1,3 +1,7 @@
 .container {
   background-color: green;
 }
+
+.heading {
+  composes: oswald-extralight from '../App.css';
+}
