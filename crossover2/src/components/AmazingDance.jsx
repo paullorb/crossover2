@@ -5,13 +5,13 @@ function AmazingDance () {
   return (
     <div className={style.Container} style={{backgroundImage: `url(${imgBackground})`}}>
       <div className={style.amazingDanceImage}>
-      <img src="./src/public/img/amazingDance.jpg" alt="Amazing Dance" />
+      <img className={style.imageLeft} src="./src/public/img/amazingDance.jpg" alt="Amazing Dance" />
      </div> 
      <div className={style.amazingDanceContainer}>
-      <img src="./src/public/bg/amazingDanceBg.jpg" alt="" />
-      <h1>Amazing Dance</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
-      <button> Read More</button>
+      <img className={style.imageLeft} src="./src/public/bg/amazingDanceBg.jpg" alt="" />
+      <h1 className={style.heading}>Amazing Dance</h1>
+      <p className={style.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+      <button className={style.button}> Read More</button>
       </div>
     </div>
   )
