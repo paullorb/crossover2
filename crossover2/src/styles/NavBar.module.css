@@ -1,12 +1,33 @@
 .navContainer {
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+
+.nav {
   display: flex;
-  /* background-color: red; */
-  margin: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  padding-left: 5rem;
+  width: 200px;
 }
 
 .navLinks {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  gap: 1rem;
+  gap: 3rem;
+}
+
+.navLink {
+  composes: oswald-light from '../App.css';
+}
+
+.search {
+  width: 5rem;
+  padding-right: 1rem;
+  color: invert(100%);
 }
