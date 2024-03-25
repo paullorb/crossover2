@@ -4,7 +4,7 @@ import DanceTour from './components/DanceTour';
 import Pricing from './components/Pricing';
 import AmazingDance from './components/AmazingDance';
 import BestDance from './components/BestDance';
-import Statistics from './components/Statistics';
+// import Statistics from './components/Statistics';
 import Subscribe from './components/Subscribe';
 import Footer from './components/Footer';
 
@@ -17,7 +17,7 @@ function Landing () {
     <Pricing />
     <AmazingDance />
     <BestDance />
-    <Statistics />
+    {/* <Statistics /> */}
     <Subscribe />
     <Footer />
     </>
