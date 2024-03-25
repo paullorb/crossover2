@@ -19,15 +19,22 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
-  gap: 3rem;
+  gap: 5rem;
 }
 
 .navLink {
   composes: oswald-light from '../App.css';
 }
 
+.navLink:hover {
+  cursor: pointer;
+  background-color: #ff6600;
+  border-radius: 0.2rem;
+  transition: 0.3s ease-in-out;
+  padding: 0.5rem 1rem;
+}
+
 .search {
-  width: 5rem;
-  padding-right: 1rem;
-  color: invert(100%);
+  width: 3rem;
+  margin-right: 3.5rem;
 }
