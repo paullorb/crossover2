@@ -1,0 +1,12 @@
+.navContainer {
+  display: flex;
+  /* background-color: red; */
+  margin: 1rem 2rem;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1rem;
+}
