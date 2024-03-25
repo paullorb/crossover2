@@ -1,6 +1,6 @@
 import style from '../styles/NavBar.module.css';
 import Logo from '../public/logo/logo.gif';
-import imgSearch from '../public/icon/search.png';
+import imgSearch from '../public/icon/searchh.png';
 
 function NavBar () {
   return (
